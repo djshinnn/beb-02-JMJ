@@ -1,0 +1,91 @@
+/* MypageHeader */
+.header {
+  max-height: 15rem;
+}
+
+.header__content {
+  padding-bottom: 1rem;
+  height: 15rem;
+}
+.header__owner {
+  padding-top: 70px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  margin: 0px auto;
+  height: 1.5rem;
+  position: relative;
+}
+
+.header__owner > div {
+  margin-bottom: 8px;
+}
+
+.header__ownerImage {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  border-radius: 4rem;
+  overflow: hidden;
+  object-fit: contain;
+  display: flex;
+}
+.header__accountContainer {
+  margin-top: 5px;
+  display: flex;
+  border: 0.1em solid #ccc;
+  max-width: 7.7rem;
+  border-radius: 2rem;
+  padding-left: 4px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.header__ethImage {
+  height: 1.2rem;
+  width: 1rem;
+  margin: 0.15rem 0.2rem 0 0;
+}
+
+.header__ownerAccount {
+  color: rgb(112, 122, 131);
+  font-weight: 500;
+  align-items: center;
+  flex: 1;
+  overflow: hidden; text-overflow: ellipsis; white-space:  nowrap
+}
+
+.header__ownerName {
+  font-weight: 500;
+  font-size: 2rem;
+  color: rgb(53, 56, 64);
+}
+
+.header__copyBtn {
+  position: absolute;
+  right: 33.1rem;
+  background-color: rgb(255, 255, 255);
+  border: 0.1em solid #ccc;
+  max-width: 7.7rem;
+  border-radius: 2rem;
+  padding: 1px 4px 2px 4px;
+  color: rgb(112, 122, 131);
+  cursor: pointer;
+}
+
+/* Mypagecontents */
+
+#MypageContents {
+  text-align: center;
+  color: rgb(112, 122, 131);
+  overflow: hidden;
+  border-top: 1px solid rgb(158, 157, 157);
+  padding-top: 30px;
+  font-weight: 500;
+}
+
+.nftList {
+  cursor: pointer;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}

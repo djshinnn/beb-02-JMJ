@@ -1,0 +1,44 @@
+.cont_explore__header {
+  border-bottom: 1px solid gray;
+  padding-top: 60px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  margin: 0px auto;
+  height: 1.5rem;
+  /* 
+  border: 0.5px solid black;
+  text-align: center;
+  vertical-align: middle;
+  background-color: white;
+  height: 10rem;;
+  display: grid;
+  place-items: center;
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px  11px 0px;
+  position: sticky;   설정된 위치에 다다르면 fixed 속성처럼 행동한다. 
+  */
+}  
+
+.cont_explore__header h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  color: rgb(53, 56, 64);
+}
+.cont_explore__header h3 {
+  padding-top: 70px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: rgb(112, 122, 131);
+}
+.cont_explore__content {
+  padding-top: 20px;
+}
+  
+.cont_explore__content h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 40px;
+  color: rgb(112, 122, 131);
+}

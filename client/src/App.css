@@ -1,0 +1,251 @@
+/* container */
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  height: inherit;
+}
+#nav {
+  background-color: white;
+  height: 4rem;
+  display: grid;
+  place-items: center;
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 11px 0px;
+  position: relative;
+}
+main {
+  height: 46.9rem
+} 
+footer {
+  height: 6rem;
+  background-color: rgb(243, 251, 254);
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 11px 0px;
+  position: sticky;
+}
+
+/* nav */
+
+.ico_img {
+  background: url(./assets/opensea.png) no-repeat;
+  width: 55px;
+  height: 45px;
+  vertical-align: middle;
+}
+#nav_title {
+  font-weight: 510;
+  font-size: 1.5rem;
+}
+#name {
+  font-weight: 510;
+  vertical-align: middle;
+}
+#menu {
+  margin: 1.5rem;
+  right: 0;
+  position: absolute;
+  transition: all 0.5s ease-out;
+}
+#menu a:last-child {
+  margin-right: 50px;
+}
+
+.navTit{
+  font-weight: 500;
+  color: rgba(4, 17, 29, 0.75);
+  margin-right: 20px;
+}
+#menu a:hover {
+  color: black;
+  transition: all 0.5s ease-out;
+}
+
+#menu .loginWalletImg {
+  position: absolute;
+  top: -7px; right: 0;
+  background: url(./assets/loginWalletIMG.png) no-repeat;
+  width: 40px; height: 40px;
+  border-radius: 25px;
+}
+
+
+.navTitColorBlack {
+  font-weight: 500;                                         
+  color: black;
+  font-size: 16.7px;
+}
+.navTitLast {
+  margin-right: 55px;
+}
+.menu__a--walletIco {
+  position: absolute; top: -5px; right: 1px;
+  background: url(./assets/outline_account_balance_wallet_black_18dp.png) no-repeat;
+  width: 40px; height: 40px; 
+}
+.menu__a--walletIco:hover {
+  cursor:pointer;
+}
+
+/* homePage */
+#home_title {
+  padding-top: 75px;
+}
+#home_title h2 {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: rgb(4, 17, 29);
+}
+#home_title span {
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-top: 10px;
+}
+.home_button {
+  font-size: 1.1rem;
+  margin-top: 40px;
+}
+.home_button__div--ExploreBtn {
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 38px;
+  background-color: rgb(32, 129, 226);
+  border: 1px solid rgb(32, 129, 226);
+  transition: box-shadow 0.25s ease-in-out;
+}
+.home_button__div--ExploreBtn:hover {
+  box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.1) inset;
+}
+.home_button__div--ExploreBtn a {
+  color: rgb(255, 255, 255);
+}
+.home_button__div--CreateBtn {
+  cursor: pointer;
+  margin-left: 15px;
+  display: inline-block;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 38px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(32, 129, 226);
+  transition: box-shadow 0.25s ease-in-out;
+}
+.home_button__div--CreateBtn:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+.home_button__div--CreateBtn a {
+  color: rgb(32, 129, 226);
+}
+.home__div--NftImg {
+  position: absolute;
+  top: 140px;
+  right: 333px;
+  border-radius: 10px;
+  border: 1px solid rgb(229, 232, 235);
+  width: 420px;
+  height: 470px;
+  overflow: hidden;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  transition: box-shadow 0.25s ease-in-out;
+}
+.home__div--NftImg:hover {
+  box-shadow: 0 0 11px 10px rgba(33, 33, 33, 0.2);
+}
+.home__div--NftImg .NftImg {
+  background: url(./assets/unnamed.png) no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.home__div--NftImg .NftImg_Ico {
+  position: absolute;
+  background: url(./assets/outline_info_black_24dp.png) no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.home__div--NftImg .NftImg_tit {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 60px;
+}
+.home__div--NftImg .NftImg_SubTit {
+  margin-left: 60px;
+  font-size: 11px;
+  font-weight: lighter;
+}
+
+/* create */
+#cont_create {
+  margin-top: 40px;
+  border: 0;
+  border-radius: 10px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 15px 1px rgb(39 39 39 / 10%);
+}
+
+#create_component {
+  padding: 20px 10px 30px 30px;
+}
+
+.create__div--createHeader h1 {
+  font-weight: 500;
+  font-size: 35px;
+  letter-spacing: 0px;
+  color: rgb(4, 17, 29);
+}
+.createForm__div--inputDataFile {
+  margin-top: 1.3rem;
+}
+.createForm__div--inputDataFile span {
+  font-size: 16px;
+  color: rgb(53, 56, 64);
+}
+.createForm__div--inputElement {
+  margin-top: 1.5rem;
+}
+
+.inputElement__div--elementLabel {
+  font-size: 16px;
+  color: rgb(53, 56, 64);
+}
+
+.inputElement__div--element-input {
+  margin-top: 0.5rem;
+  width: 60%;
+  height: 2rem;
+  border-radius: 0.5rem;
+  border: lightgray 0.1rem solid;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.inputElement__div--element-textarea {
+  resize: none;
+  height: 6rem !important;
+}
+
+.inputElement__input--elementBtn {
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 10px 38px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(32, 129, 226);
+}
+
+/* footer */
+footer span {
+  text-shadow: 1px 1px 1px rgb(229, 232, 235);
+  color: rgb(201, 186, 186);
+}
+footer span:last-child {
+  font-weight: lighter;
+  float: right;
+}
+#footer {
+  margin-top: 80px;
+  padding-top: 15px;
+}
